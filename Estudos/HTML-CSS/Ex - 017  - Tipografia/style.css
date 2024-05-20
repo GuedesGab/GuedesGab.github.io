@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm, mm, in (polegada), px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+
+    */
+    font-size: 1em;
+    font-weight: normal;
+    /*Lighter normal bold bolder ou 100 - 900*/
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   font-size: 3em;
+   font-style:  italic;
+   text-align: center;
+   /* shorthand  font
+   - font-style -> font-weight -> font-size -> font-family
+   */
+    font: italic bold 3em "Arial, Helvetica, sans-serif";
+}
+
+h2{
+    font:  bold 2em "Arial, Helvetica, sans-serif";
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}

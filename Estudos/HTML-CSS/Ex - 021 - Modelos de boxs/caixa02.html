@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');   
+        
+        body{
+            margin: 0px;
+            background-color: rgb(221, 67, 67);
+        }
+
+        .cabecalho_1{
+            font-family: "Luckiest Guy", cursive;
+            font-weight: 400;
+            background-color: orange;
+        }
+
+        .acess > a{
+            padding-right: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(206, 138, 13);
+            text-shadow: 1px 1px 1px black;
+        }
+
+        nav{
+            background-color: gray;
+            margin: 2px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.466);
+        }
+
+        .acess >a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+            color: rgb(158, 158, 25);
+        }
+    
+        .acess{
+            padding: 2px;
+            align-items: center;
+        }
+
+        .sub_titles{
+            display: flexbox;
+            gap: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;
+            text-shadow: 2px 2px 1px orangered;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.26);
+        }
+
+        main{
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <h1 class="cabecalho_1">
+            Pizzas Gold
+        </h1>
+        <nav class="acess">
+            <a href="@">Quem somos</a>
+            <a href="@">Whatsapp</a>
+            <a href="@">Instagram</a>
+            <a href="@">Facebook</a>
+            <a href="@">Pizzas</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="sub_titles">
+                Quem somos
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet ea repudiandae ab, aliquam soluta, labore iure explicabo dolore saepe alias nulla officiis nesciunt dolorum nemo nobis porro expedita. Quae.
+            </p>
+        </section>
+        <section>
+            <h2 class="sub_titles">
+                Como entrar em contato?
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rem corporis praesentium, quod, libero id provident beatae amet culpa, obcaecati quia quaerat nulla placeat modi in exercitationem voluptatibus officia repellendus!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Feito por Gabriel Guedes
+        </p>
+    </footer>
+</body>
+</html>
